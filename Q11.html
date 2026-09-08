@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 11</title>
+</head>
+<body>
+    <h1 style="color:red"><div style="text-align:center;">Đăng Nhập</div></h1>
+    <form >
+        <table border="1" align="center" >
+            <tr>
+            <td>mã người dùng</td>
+            <td><input type="text" id="user"></td>
+</tr>
+<tr>
+    <td>Mật Khẩu
+        
+    </td>
+    <td><input type="password" id="pass"></td>
+</tr>
+<tr>
+
+    <td align="center" colspan="2"><input type="button" value="đồng ý"onclick="show()" ></td>
+</tr>
+<tr>
+    <td colspan="2" id="ketqua" align="center"></td>
+</tr>
+        </table>
+    </form>
+    <script>
+        function show(){
+            var user =document.getElementById("user").value;
+            document.getElementById("ketqua").innerHTML=user;
+        }
+    </script>
+</body>
