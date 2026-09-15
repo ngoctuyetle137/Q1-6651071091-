@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập tổng hợp</title>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 13px; margin: 10px; }
+        table.main-table {
+            width: 900px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        table.main-table td { border: 1px solid #eee; padding: 10px; }
+        .banner {
+            font-size: 26px;
+            color: #003399;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .menu-list {
+            list-style-type: disc;
+            line-height: 2;
+            padding-left: 20px;
+        }
+        .section-header {
+            background-color: #0066CC;
+            color: #FFFFFF;
+            padding: 6px 10px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+        .sub-header {
+            color: #8B0000;
+            font-weight: bold;
+            margin: 8px 0 4px 0;
+        }
+        .back-top {
+            text-align: right;
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        .img-box {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Điểm mốc ĐẦU TRANG -->
+<a id="vedau" name="vedau"></a>
+
+<table class="main-table">
+    <!-- Dòng Banner -->
+    <tr>
+        <td colspan="2">
+            <div class="banner">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=50&h=50&fit=crop" alt="Icon" class="img-box" width="40" height="40">
+                Ai? Cái gì? Ở đâu? ...
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <!-- Cột trái: Menu Chuyên mục -->
+        <td width="25%" valign="top">
+            <ul class="menu-list">
+                <li><a href="#tinhyeu">Tình yêu và gia đình</a></li>
+                <li><a href="#suckhoe">Sức khỏe</a></li>
+                <li><a href="#dulich">Du lịch</a></li>
+                <li><a href="#amthuc">Ẩm thực</a></li>
+                <li><a href="#amnhac">Âm nhạc</a></li>
+            </ul>
+        </td>
+
+        <!-- Cột phải: Nội dung chi tiết các chuyên mục -->
+        <td width="75%" valign="top">
+
+            <!-- 1. TÌNH YÊU VÀ GIA ĐÌNH -->
+            <a id="tinhyeu" name="tinhyeu"></a>
+            <div class="section-header">Tình yêu và gia đình</div>
+            
+            <div class="sub-header">Trầu cau</div>
+            <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=120&h=90&fit=crop" align="left" style="margin-right: 10px;" class="img-box" width="120" height="90">
+            <p><b>Tình yêu là gì?</b> Là ta yêu một người mỗi ngày trong một năm. Mỗi năm trong một đời người...</p>
+            <div style="clear: both;"></div>
+
+            <div class="sub-header">Xây dựng hạnh phúc gia đình qua những bữa cơm hàng ngày</div>
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=120&h=80&fit=crop" align="left" style="margin-right: 10px;" class="img-box" width="120" height="80">
+            <p>Nói đến hạnh phúc gia đình chúng ta thường mô tả bằng những từ thật đẹp đẽ và được thể hiện qua những giá trị đạo đức rất đáng trân trọng như tình yêu, lòng chung thủy, tình nghĩa vợ chồng...</p>
+            <div style="clear: both;"></div>
+
+            <!-- 2. SỨC KHỎE -->
+            <a id="suckhoe" name="suckhoe"></a>
+            <div class="section-header">Sức khỏe</div>
+            
+            <div class="sub-header">10 lời khuyên trong dinh dưỡng</div>
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=120&h=80&fit=crop" align="left" style="margin-right: 10px;" class="img-box" width="120" height="80">
+            <p>Cơ thể chúng ta cần nhiều chất dinh dưỡng từ nhiều nguồn lương thực khác nhau. Vì vậy chúng ta nên thay đổi các loại lương thực khác nhau...</p>
+            <div style="clear: both;"></div>
+
+            <div class="sub-header">Làm sao để bỏ thuốc lá?</div>
+            <img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=120&h=80&fit=crop" align="left" style="margin-right: 10px;" class="img-box" width="120" height="80">
+            <p>Sức khỏe của chính bạn. Không hút thuốc lá tức là giảm thiểu đáng kể rủi ro mắc các loại bệnh ung thư và sức khỏe sẽ tăng lên đáng kể...</p>
+            <div style="clear: both;"></div>
+            
+            <div class="back-top"><a href="#vedau">Về đầu trang</a></div>
+
+            <!-- 3. DU LỊCH -->
+            <a id="dulich" name="dulich"></a>
+            <div class="section-header">Du lịch</div>
+            <div class="sub-header">Các tour mới nhất</div>
+            <ul>
+                <li>Côn Minh - Đại Lý - Lệ Giang</li>
+                <li>Đến Macau xem casino</li>
+                <li>Về Cà Mau ăn tôm tít</li>
+            </ul>
+
+            <div class="sub-header">Các điểm du lịch nổi tiếng trên thế giới</div>
+            <ul>
+                <li>Đảo Bali xinh đẹp - Indonesia</li>
+                <li>Thành cổ Rome và tháp nghiêng Pisa</li>
+                <li>Vạn Lý Trường Thành</li>
+            </ul>
+            <div class="back-top"><a href="#vedau">Về đầu trang</a></div>
+
+            <!-- 4. ẨM THỰC -->
+            <a id="amthuc" name="amthuc"></a>
+            <div class="section-header">Ẩm thực</div>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=140&h=90&fit=crop" align="right" style="margin-left: 10px;" class="img-box" width="140" height="90">
+            <ul>
+                <li>Các món ăn mới trong tuần</li>
+                <li>Chuyên mục dạy nấu ăn</li>
+                <li>Món ngon Hà Nội</li>
+                <li>Các món ăn dân dã ở miền Tây</li>
+            </ul>
+            <div style="clear: both;"></div>
+            <div class="back-top"><a href="#vedau">Về đầu trang</a></div>
+
+            <!-- 5. ÂM NHẠC -->
+            <a id="amnhac" name="amnhac"></a>
+            <div class="section-header">Âm nhạc</div>
+            <div class="sub-header">Nhạc thiếu nhi</div>
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=120&h=80&fit=crop" align="right" style="margin-left: 10px;" class="img-box" width="120" height="80">
+            <ul>
+                <li>Nắng sân trường</li>
+                <li>Mẹ yêu không nào</li>
+                <li>Ba bà đi bán lợn con</li>
+            </ul>
+            <div style="clear: both;"></div>
+
+            <div class="sub-header">Dân ca</div>
+            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=100&h=80&fit=crop" align="right" style="margin-left: 10px;" class="img-box" width="100" height="80">
+            <ul>
+                <li>Bèo dạt mây trôi</li>
+                <li>Mười thương</li>
+                <li>Lý cây bông</li>
+            </ul>
+            <div style="clear: both;"></div>
+            <div class="back-top"><a href="#vedau">Về đầu trang</a></div>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

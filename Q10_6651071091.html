@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo bảng, trộn dòng và cột (tt)</title>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 13px; }
+        table.promo {
+            width: 750px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid #FF0000;
+        }
+        table.promo td {
+            border: 1px solid #FF0000;
+            padding: 8px;
+        }
+        .header-main {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        .header-sub {
+            background-color: #FFBBBB;
+            color: #FF0000;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .section-title {
+            color: #FF0000;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+        .product-img {
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        ul, ol { margin: 5px 0 10px 20px; padding: 0; }
+        li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+<table class="promo">
+    <!-- Dòng 1: Tiêu đề và hình sản phẩm -->
+    <tr>
+        <td colspan="3" class="header-main">
+            Công nghệ dầu gội dưỡng tóc mới<br>
+            <span style="font-size: 22px;">Tỏa sáng cùng DOUBLE RICH</span>
+        </td>
+        <td width="160" align="center" valign="middle">
+            <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=300&h=200&fit=crop" alt="Double Rich Product" class="product-img" width="140" height="90">
+        </td>
+    </tr>
+
+    <!-- Dòng 2: Khoảng trống -->
+    <tr height="8"><td colspan="4" style="border: none;"></td></tr>
+
+    <!-- Dòng 3: Tiêu đề phụ Cách thức nhận giải -->
+    <tr>
+        <td colspan="4" class="header-sub">Cách thức nhận giải</td>
+    </tr>
+
+    <!-- Dòng 4: Nội dung chi tiết -->
+    <tr>
+        <!-- Cột trái: Sản phẩm & Đối tượng -->
+        <td colspan="2" width="50%" valign="top">
+            <div class="section-title">Sản phẩm khuyến mãi:</div>
+            <ul>
+                <li>Dầu gội Double Rich mới 200ml, 400ml có tem khuyến mãi.</li>
+            </ul>
+
+            <div class="section-title">Đối tượng tham gia:</div>
+            <ul>
+                <li>Áp dụng cho tất cả người tiêu dùng cuối cùng mua sản phẩm khuyến mãi.</li>
+                <li>Chương trình không áp dụng cho nhân viên, nhà phân phối bao gồm các tổng đại lý, đại lý, cửa hàng bán sỉ, lẻ và các cá nhân kinh doanh sản phẩm của công ty LDMP LG Vina, công ty quảng cáo, công ty làm dịch vụ chương trình khuyến mãi này, nhân viên siêu thị.</li>
+            </ul>
+        </td>
+
+        <!-- Cột phải: Thể lệ nhận giải -->
+        <td colspan="2" width="50%" valign="top">
+            <ol>
+                <li><b>Giải khuyến khích:</b> Khách hàng đổi quà tại các cửa hàng bán lẻ trên toàn quốc. Bắt đầu từ ngày 15/06/2005 đến 17h ngày 12/08/2005.</li>
+                <br>
+                <li><b>Giải đặc biệt, nhất, nhì:</b> Khách hàng cắt phần mã vạch trên mỗi chai dầu gội có khuyến mãi và gởi kèm phiếu trúng thưởng về văn phòng công ty, hạn chót đến hết ngày 31/07/2005 (căn cứ theo dấu bưu điện nơi gởi). Sau đó công ty sẽ gởi thư thông báo trúng thưởng và cách thức nhận quà cho khách hàng.</li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

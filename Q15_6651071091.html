@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo iframe</title>
+    <style>
+        body { margin: 0; padding: 10px; font-family: Arial, sans-serif; }
+        table.layout {
+            width: 100%;
+            height: 600px;
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+        table.layout td { border: 1px solid #ccc; }
+        .header-row {
+            background-color: #003399;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            height: 50px;
+        }
+        .menu-col {
+            background-color: #DEF0FA;
+            width: 30%;
+            vertical-align: top;
+            padding: 10px;
+        }
+        .menu-col ul {
+            list-style-type: square;
+            line-height: 2;
+            padding-left: 20px;
+            font-size: 13px;
+        }
+        .content-col {
+            width: 70%;
+            vertical-align: top;
+            padding: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<table class="layout">
+    <!-- Dòng 1: Tiêu đề -->
+    <tr>
+        <td colspan="2" class="header-row">Bài tập NGÔN NGỮ HTML</td>
+    </tr>
+    <!-- Dòng 2: Thực đơn + Khung hiển thị Iframe -->
+    <tr>
+        <td class="menu-col">
+            <ul>
+                <li><a href="Bai1.01.html" target="showframe">Bài 01 - Các tag cơ bản</a></li>
+                <li><a href="Bai1.02.html" target="showframe">Bài 02 - Các tag cơ bản, có định dạng</a></li>
+                <li><a href="Bai1.03.html" target="showframe">Bài 03 - Định dạng trang web</a></li>
+                <li><a href="Bai1.04.html" target="showframe">Bài 04 - Định dạng trang web (tt)</a></li>
+                <li><a href="Bai1.05.html" target="showframe">Bài 05 - Định dạng văn bản</a></li>
+                <li><a href="Bai1.06.html" target="showframe">Bài 06 - Định dạng văn bản (tt)</a></li>
+            </ul>
+        </td>
+        <td class="content-col">
+            <iframe name="showframe" src="Bai1.01.html"></iframe>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
